@@ -1,0 +1,57 @@
+{
+  "id": "ZWA002-C",
+  "name": {
+    "en": "LED Bulb 6",
+    "nl": "LED lamp 6"
+  },
+  "class": "light",
+  "capabilities": [
+    "light_saturation",
+    "light_temperature",
+    "dim",
+    "light_hue",
+    "light_mode",
+    "onoff"
+  ],
+  "images": {
+    "large": "{{driverAssetsPath}}/images/large.png",
+    "small": "{{driverAssetsPath}}/images/small.png"
+  },
+  "zwave": {
+    "manufacturerId": 881,
+    "productTypeId": [
+      3
+    ],
+    "productId": [
+      2
+    ],
+    "zwaveAllianceProductId": 2881,
+    "zwaveAllianceProductDocumentation": "https://products.z-wavealliance.org/ProductManual/File?folder=&filename=MarketCertificationFiles/2881/AA%20LED%20Bulb%206%20%E8%AF%B4%E6%98%8E%E4%B9%A6%EF%BC%88RGBW-AL001%EF%BC%89_%E8%BD%AC%E6%9B%B2-2dd.pdf",
+    "learnmode": {
+      "image": "{{driverAssetsPath}}/learnmode.svg",
+      "instruction": {
+        "en": "Quickly turn the {{driverNameEn}} off and on again. For secure pairing quickly turn the {{driverNameEn}} off and on 1 times.",
+        "nl": "Schakel de {{driverNameNl}} snel uit en aan. Voor beveiligd koppelen schakel de {{driverNameNl}} 1 keer snel uit en aan."
+      }
+    },
+    "unlearnmode": {
+      "instruction": {
+        "en": "Quickly turn the {{driverNameEn}} off and on again 3 times.",
+        "nl": "Schakel de {{driverNameNl}} die maal snel uit en aan."
+      }
+    },
+    "associationGroups": [
+      1
+    ],
+    "associationGroupsOptions": {
+      "1": {
+        "hint": {
+          "en": "The association group 1 is the Z-Wave Lifeline group. The Hail CC and Basic Report CC (configurable) will be sent to the associated nodes.",
+          "nl": "De 1e associatie groep is de Z-Wave levenslijn groep. De Hail CC en Basic Report CC (configureerbaar) worden verzonden naar de apparaten in deze groep."
+        }
+      }
+    },
+    "defaultConfiguration": [
+    ]
+  }
+}
