@@ -1,8 +1,8 @@
 {
   "id": "ZWA002-C",
   "name": {
-    "en": "LED Bulb 6",
-    "nl": "LED lamp 6"
+    "en": "LED Bulb (gen6)",
+    "nl": "LED lamp (gen6)"
   },
   "class": "light",
   "capabilities": [
